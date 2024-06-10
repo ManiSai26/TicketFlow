@@ -1,0 +1,33 @@
+.cccross{
+    background-color: black;
+    border-radius: 200px;
+    padding:7px;
+    display: flex;
+    width: min-content;
+    flex-direction: row;
+    img{
+        width: 18px;
+        height: 18px;
+    }
+    transform: translate(35px, -31px);
+}
+.cccoffeecontainer
+{
+    background-color: white;
+    border-radius: 200px;
+    padding: 28px;
+    display: flex;
+    width: min-content;
+    flex-direction: row;
+    img{
+        width: 40px;
+    }
+}
+.ccmain
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5vh;
+}

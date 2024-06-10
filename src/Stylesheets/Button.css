@@ -1,0 +1,25 @@
+.ButtonMain
+{
+    display: flex;
+    button{
+        background-color: black;
+        color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 15px;
+        width: max-content;
+        flex-grow: 1;
+        
+    }
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ButtonMain:hover{
+    button{
+        background-color: rgb(62, 62, 62);
+        /* color: black; */
+        cursor: pointer;
+    }
+}

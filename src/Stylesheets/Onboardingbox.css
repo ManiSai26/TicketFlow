@@ -1,0 +1,78 @@
+.obMain
+{
+    height: 85vh;
+    width: 30vw;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.obGrillMain
+{
+    padding-top: 5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.obGrill
+{
+    border: 1px solid #DEDFDF;
+    background-color: #DEDFDF;
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-left: 60px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.obIgnoremain
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 1vh;
+}
+.obIgnoreContent
+{
+    padding-right: 5vw;
+    /* font-family: Poppins; */
+    font-size: 14px;
+    font-weight: 500;
+}
+.obMainHead{
+    font-size: 48px;
+    font-weight: 700;
+}
+.obFormMain
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.onInputContainer
+{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.inputBox{
+    margin-top: 5px;
+    width: 350px !important;
+    border: 1px solid #DEDFDF;
+    border-radius: 8px;
+    padding: 8px;
+}
+.obButtonsmain
+{
+    margin-top: 5px;
+    width: 84%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
