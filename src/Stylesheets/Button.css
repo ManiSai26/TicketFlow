@@ -15,11 +15,17 @@
     flex-grow: 1;
     margin-left: 10px;
     margin-right: 10px;
-}
-.ButtonMain:hover{
+   &:hover
+   {
     button{
         background-color: rgb(62, 62, 62);
-        /* color: black; */
         cursor: pointer;
     }
+   } 
 }
+/* .ButtonMain:hover{
+    button{
+        background-color: rgb(62, 62, 62);
+        cursor: pointer;
+    }
+} */

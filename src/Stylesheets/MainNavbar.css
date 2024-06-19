@@ -1,0 +1,54 @@
+.MNLogoDiv{
+    font-size: 26px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.MainNavbar{
+    padding-left: 15px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    padding-bottom: 15px;
+}
+.MNSearchContainer input
+{
+    background-color: #fefefe;
+    /* border: 1px solid #c0bfbf; */
+    /* border-radius: 10px; */
+    outline: none;
+    border: none;
+    height: 25px;
+    width: 300px;
+}
+input:focus {
+    /* border: 2px solid blue; */
+    outline: none; /* Remove default browser outline */
+    .MNSearchContainer{
+        border: 1px solid black !important;
+    }
+}
+.MNSearchContainer
+{
+    display: flex;
+    flex-direction: row;
+        border: 1px solid #c0bfbf;
+    border-radius: 10px;
+    padding: 3px;
+}
+.MNProfilePic{
+    width: 30px;
+    height: 30px;
+    border-radius: 32px;
+    margin-left: 5px;
+}
+.MNSettingspane
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 15px;
+}
